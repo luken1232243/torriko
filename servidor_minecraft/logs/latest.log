@@ -104,3 +104,7 @@
 [20:26:38] [Server thread/INFO]: [lunek334: Killed lunek334]
 [20:28:06] [Server thread/INFO]: lunek334 lost connection: Disconnected
 [20:28:06] [Server thread/INFO]: lunek334 left the game
+[20:28:30] [User Authenticator #1/INFO]: UUID of player lunek334 is b767140b-7caa-36cd-b2f7-9432f16fcc59
+[20:28:30] [Server thread/INFO]: lunek334 joined the game
+[20:28:30] [Server thread/INFO]: lunek334[/127.199.189.5:54455] logged in with entity id 3619 at ([world]-354.3514287737348, 127.0, -358.99961189099724)
+[20:32:57] [Server thread/INFO]: Set the time to 1000
