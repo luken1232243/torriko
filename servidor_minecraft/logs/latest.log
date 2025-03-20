@@ -108,3 +108,47 @@
 [20:28:30] [Server thread/INFO]: lunek334 joined the game
 [20:28:30] [Server thread/INFO]: lunek334[/127.199.189.5:54455] logged in with entity id 3619 at ([world]-354.3514287737348, 127.0, -358.99961189099724)
 [20:32:57] [Server thread/INFO]: Set the time to 1000
+[20:48:51] [Server thread/INFO]: lunek334 issued server command: /kill @a
+[20:48:51] [Server thread/INFO]: lunek334 was killed
+[20:48:51] [Server thread/INFO]: [lunek334: Killed lunek334]
+[20:48:55] [Server thread/INFO]: lunek334 issued server command: /kill @e
+[20:48:55] [Server thread/INFO]: lunek334 was killed
+[20:48:55] [Server thread/INFO]: [lunek334: Killed 310 entities]
+[20:51:23] [Server thread/INFO]: Stopping the server
+[20:51:23] [Server thread/INFO]: Stopping server
+[20:51:23] [Server thread/INFO]: [ServerTap] Disabling ServerTap v0.5.4-SNAPSHOT
+[20:51:23] [Server thread/INFO]: [ServerTap] Disabled Version 0.5.4-SNAPSHOT
+[20:51:23] [Server thread/INFO]: [io.javalin.Javalin] Stopping Javalin ...
+[20:51:23] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Stopped Server@76da6a53{STOPPING}[11.0.15,sto=0]
+[20:51:23] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@5f1c5b21{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[20:51:23] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Stopped i.j.j.@2b17f72f{/,null,STOPPED}
+[20:51:23] [Server thread/INFO]: [io.javalin.Javalin] Javalin has stopped
+[20:51:23] [Server thread/INFO]: [s2e-farm-pro] Disabling s2e-farm-pro v1.2.4-pro
+[20:51:23] [Server thread/INFO]: [s2e-bedrock-box] Disabling s2e-bedrock-box v1.2.7
+[20:51:23] [Server thread/INFO]: [s2e-sand-box] Disabling s2e-sand-box v2.0.3
+[20:51:23] [Server thread/INFO]: Saving players
+[20:51:23] [Server thread/INFO]: lunek334 lost connection: Server closed
+[20:51:23] [Server thread/INFO]: lunek334 left the game
+[20:51:23] [Server thread/INFO]: Saving worlds
+[20:51:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 225 entity chunks, 0 poi chunks in world 'world' in 0.40s
+[20:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:51:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 25 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[20:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:51:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:51:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:51:24] [Server thread/INFO]: [ChunkHolderManager] Saved 1455 block chunks, 41 entity chunks, 0 poi chunks in world 'world_the_end' in 0.24s
+[20:51:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:51:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:51:24] [Server thread/INFO]: Flushing Chunk IO
+[20:51:24] [Server thread/INFO]: Closing Thread Pool
+[20:51:24] [Server thread/INFO]: Closing Server
