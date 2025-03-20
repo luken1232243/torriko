@@ -104,3 +104,15 @@
 [23:41:32] [Server thread/INFO]: lunek334[/127.199.189.5:50159] logged in with entity id 1194 at ([world]-723.1473223827617, 63.0, -469.16777462144836)
 [23:42:44] [Server thread/INFO]: lunek334 issued server command: /gamemode creative
 [23:42:44] [Server thread/INFO]: [lunek334: Set own game mode to Creative Mode]
+[23:53:40] [Server thread/INFO]: lunek334 issued server command: /time set day
+[23:53:40] [Server thread/INFO]: [lunek334: Set the time to 1000]
+[23:53:47] [Server thread/INFO]: lunek334 issued server command: /gamemode survival
+[23:53:47] [Server thread/INFO]: [lunek334: Set own game mode to Survival Mode]
+[23:53:50] [Server thread/INFO]: lunek334 lost connection: Disconnected
+[23:53:50] [Server thread/INFO]: lunek334 left the game
+[23:55:35] [User Authenticator #2/INFO]: UUID of player lunek334 is b767140b-7caa-36cd-b2f7-9432f16fcc59
+[23:55:35] [Server thread/INFO]: lunek334 joined the game
+[23:55:35] [Server thread/INFO]: lunek334[/127.199.189.5:41941] logged in with entity id 2699 at ([world]-723.9129946456961, 63.0, -473.92909217564846)
+[23:56:03] [Server thread/INFO]: lunek334 has made the advancement [Monster Hunter]
+[23:57:53] [Server thread/INFO]: lunek334 issued server command: /gamemode creative
+[23:57:53] [Server thread/INFO]: [lunek334: Set own game mode to Creative Mode]
