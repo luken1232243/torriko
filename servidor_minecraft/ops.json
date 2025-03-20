@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "56a857a1-ba31-36ed-970b-f7fc0a76a22b",
+    "name": "pech",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
