@@ -1,50 +1,26 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-03-20 20:18:58 +0000"
+      "unlock_right_away": "2025-03-20 23:39:02 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cherry_grove": "2025-03-20 20:22:32 +0000",
-      "minecraft:river": "2025-03-20 20:19:47 +0000",
-      "minecraft:stony_shore": "2025-03-20 20:19:51 +0000",
-      "minecraft:forest": "2025-03-20 20:25:12 +0000",
-      "minecraft:ice_spikes": "2025-03-20 20:22:35 +0000",
-      "minecraft:frozen_peaks": "2025-03-20 20:25:22 +0000",
-      "minecraft:meadow": "2025-03-20 20:19:58 +0000",
-      "minecraft:plains": "2025-03-20 20:18:59 +0000"
+      "minecraft:dark_forest": "2025-03-20 23:39:21 +0000",
+      "minecraft:windswept_savanna": "2025-03-20 23:39:04 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
-      "has_dandelion": "2025-03-20 20:20:19 +0000"
+      "has_sugar_cane": "2025-03-20 23:42:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+  "minecraft:recipes/misc/paper": {
     "criteria": {
-      "has_netherite_block": "2025-03-20 20:21:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-03-20 20:23:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2025-03-20 20:26:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2025-03-20 20:26:26 +0000"
+      "has_reeds": "2025-03-20 23:42:57 +0000"
     },
     "done": true
   },
