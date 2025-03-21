@@ -278,3 +278,15 @@ java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 7
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[02:30:17] [Server thread/INFO]: lunek334 issued server command: /tp ~ 4000 -615.63
+[02:30:17] [Server thread/INFO]: [lunek334: Teleported lunek334 to -1326.632285, 4000.000000, -615.630000]
+[02:30:24] [Server thread/INFO]: lunek334 issued server command: /gamemode survival
+[02:30:24] [Server thread/INFO]: [lunek334: Set own game mode to Survival Mode]
+[02:30:30] [Server thread/INFO]: lunek334 issued server command: /tp ~ 400 -615.63
+[02:30:30] [Server thread/INFO]: [lunek334: Teleported lunek334 to -1326.632285, 400.000000, -615.630000]
+[02:30:42] [Server thread/INFO]: lunek334 issued server command: /gamemode creative
+[02:30:42] [Server thread/INFO]: [lunek334: Set own game mode to Creative Mode]
+[02:31:53] [Server thread/INFO]: lunek334 issued server command: /bedrock create 11 12
+[02:33:43] [Server thread/INFO]: lunek334 issued server command: /time set daty
+[02:33:46] [Server thread/INFO]: lunek334 issued server command: /time set day
+[02:33:46] [Server thread/INFO]: [lunek334: Set the time to 1000]
