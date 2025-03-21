@@ -186,3 +186,7 @@
 [01:12:48] [Server thread/INFO]: [lunek334: Set the time to 1000]
 [01:23:13] [Server thread/INFO]: lunek334 issued server command: /time set day
 [01:23:13] [Server thread/INFO]: [lunek334: Set the time to 1000]
+[01:30:22] [Server thread/INFO]: lunek334 issued server command: /time set day
+[01:30:22] [Server thread/INFO]: [lunek334: Set the time to 1000]
+[01:30:28] [Server thread/INFO]: lunek334 issued server command: /weather clear
+[01:30:28] [Server thread/INFO]: [lunek334: Set the weather to clear]
