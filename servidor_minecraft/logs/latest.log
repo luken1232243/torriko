@@ -1206,3 +1206,7 @@ java.lang.ArrayIndexOutOfBoundsException: null
 java.lang.ArrayIndexOutOfBoundsException: null
 [03:31:41] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
 java.lang.ArrayIndexOutOfBoundsException: null
+[04:03:48] [Server thread/INFO]: lunek334 issued server command: /time set day
+[04:03:48] [Server thread/INFO]: [lunek334: Set the time to 1000]
+[04:04:07] [Server thread/INFO]: lunek334 issued server command: /gamerule doDaylightCycle false
+[04:04:07] [Server thread/INFO]: [lunek334: Gamerule doDaylightCycle is now set to: false]
