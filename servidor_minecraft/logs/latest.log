@@ -1204,3 +1204,5 @@ java.lang.ArrayIndexOutOfBoundsException: null
 java.lang.ArrayIndexOutOfBoundsException: null
 [03:25:48] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
 java.lang.ArrayIndexOutOfBoundsException: null
+[03:31:41] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
