@@ -167,3 +167,10 @@
 [00:15:33] [Server thread/INFO]: Gave 1 [gracias por el totem] to lunek334
 [00:15:33] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to lunek334
 [00:17:55] [Server thread/INFO]: lunek334 has made the advancement [Getting an Upgrade]
+[00:18:54] [Server thread/INFO]: lunek334 issued server command: /gamemode creative
+[00:18:54] [Server thread/INFO]: [lunek334: Set own game mode to Creative Mode]
+[00:19:27] [Server thread/INFO]: lunek334 issued server command: /bedrock create 11 9
+[00:21:12] [Server thread/INFO]: lunek334 issued server command: /time set day
+[00:21:12] [Server thread/INFO]: [lunek334: Set the time to 1000]
+[00:21:26] [Server thread/INFO]: lunek334 issued server command: /gamerule sendCommandFeedback false
+[00:21:26] [Server thread/INFO]: [lunek334: Gamerule sendCommandFeedback is now set to: false]
