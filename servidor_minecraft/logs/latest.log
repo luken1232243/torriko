@@ -2262,3 +2262,11 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [05:11:28] [Server thread/INFO]: Summoned new Zombie
 [05:11:44] [Server thread/INFO]: Summoned new Zombie
 [05:12:02] [Server thread/INFO]: lunek334 issued server command: /bedrock create 20 20
+[05:16:36] [Server thread/INFO]: Summoned new Zombie
+[05:16:43] [Server thread/INFO]: Summoned new Zombie
+[05:17:11] [Server thread/INFO]: lunek334 issued server command: /tp Bartynz lunek334
+[05:17:11] [Server thread/INFO]: [lunek334: Teleported Bartynz to lunek334]
+[05:22:06] [Server thread/INFO]: Executed 4 command(s) from function 'tiktok:witherywarden'
+[05:24:07] [Server thread/INFO]: Summoned new Zombie
+[05:24:15] [Server thread/INFO]: Summoned new Zombie
+[05:24:21] [Server thread/INFO]: Summoned new Zombie
