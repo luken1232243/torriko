@@ -2298,3 +2298,11 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [05:33:00] [Server thread/INFO]: [Bartynz: Set own game mode to Creative Mode]
 [06:10:29] [Server thread/INFO]: lunek334 has made the advancement [Who is Cutting Onions?]
 [06:11:34] [Server thread/INFO]: lunek334 has made the advancement [Hidden in the Depths]
+[06:27:12] [Server thread/INFO]: lunek334 issued server command: /effect give @p minecraft:nausea 5
+[06:27:12] [Server thread/INFO]: [lunek334: Applied effect Nausea to lunek334]
+[06:27:20] [Server thread/INFO]: lunek334 issued server command: /effect give @p minecraft:nausea 10
+[06:27:20] [Server thread/INFO]: [lunek334: Applied effect Nausea to lunek334]
+[06:27:32] [Server thread/INFO]: lunek334 issued server command: /effect give Bartynz minecraft:nausea 10
+[06:27:32] [Server thread/INFO]: [lunek334: Applied effect Nausea to Bartynz]
+[06:27:52] [Server thread/INFO]: lunek334 issued server command: /effect give Bartynz minecraft:nausea 20
+[06:27:52] [Server thread/INFO]: [lunek334: Applied effect Nausea to Bartynz]
