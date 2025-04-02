@@ -2446,3 +2446,17 @@ java.lang.ArrayIndexOutOfBoundsException: null
 java.lang.ArrayIndexOutOfBoundsException: null
 [07:02:17] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
 java.lang.ArrayIndexOutOfBoundsException: null
+[07:10:09] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:10:12] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:15:35] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:15:35] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:15:35] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:15:41] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:15:41] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
