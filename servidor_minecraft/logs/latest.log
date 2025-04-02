@@ -2233,3 +2233,32 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [05:04:05] [Server thread/INFO]: Summoned new Zombie
 [05:04:10] [Server thread/INFO]: Summoned new Zombie
 [05:04:16] [Server thread/INFO]: Summoned new Zombie
+[05:04:22] [Server thread/INFO]: Summoned new Zombie
+[05:04:27] [Server thread/INFO]: Summoned new Zombie
+[05:04:33] [Server thread/INFO]: Summoned new Zombie
+[05:04:38] [Server thread/INFO]: Summoned new Zombie
+[05:04:38] [Server thread/INFO]: Summoned new Zombie
+[05:04:43] [Server thread/INFO]: Summoned new Zombie
+[05:04:49] [Server thread/INFO]: Summoned new Zombie
+[05:04:55] [Server thread/INFO]: Summoned new Zombie
+[05:04:56] [Server thread/INFO]: Bartynz issued server command: /tp lunek334
+[05:04:56] [Server thread/INFO]: [Bartynz: Teleported Bartynz to lunek334]
+[05:05:05] [Server thread/INFO]: Summoned new Zombie
+[05:05:19] [Server thread/INFO]: Summoned new Zombie
+[05:05:19] [Server thread/INFO]: Summoned new Zombie
+[05:05:24] [Server thread/INFO]: Summoned new Zombie
+[05:05:30] [Server thread/INFO]: Summoned new Zombie
+[05:05:32] [Server thread/INFO]: Summoned new Zombie
+[05:05:37] [Server thread/INFO]: Summoned new Zombie
+[05:05:39] [Server thread/INFO]: Summoned new Zombie
+[05:05:43] [Server thread/INFO]: Summoned new Zombie
+[05:05:51] [Server thread/INFO]: Summoned new Zombie
+[05:05:55] [Server thread/INFO]: Summoned new Zombie
+[05:06:23] [Server thread/INFO]: Summoned new Zombie
+[05:06:41] [Server thread/INFO]: Summoned new Zombie
+[05:11:09] [Server thread/INFO]: Summoned new Blaze
+[05:11:09] [Server thread/INFO]: Summoned new Enderman
+[05:11:23] [Server thread/INFO]: Summoned new Zombie
+[05:11:28] [Server thread/INFO]: Summoned new Zombie
+[05:11:44] [Server thread/INFO]: Summoned new Zombie
+[05:12:02] [Server thread/INFO]: lunek334 issued server command: /bedrock create 20 20
