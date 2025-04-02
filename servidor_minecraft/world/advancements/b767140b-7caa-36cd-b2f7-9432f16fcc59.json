@@ -60,6 +60,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-04-02 03:53:32 +0000",
+      "baked_potato": "2025-04-02 04:18:12 +0000",
       "porkchop": "2025-04-02 03:43:26 +0000",
       "mutton": "2025-03-21 00:13:04 +0000",
       "rotten_flesh": "2025-03-20 23:56:06 +0000",
@@ -787,6 +788,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_shovel": "2025-04-02 04:12:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
@@ -1057,6 +1064,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-04-02 04:13:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
@@ -1078,6 +1091,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-04-02 03:41:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_shovel": "2025-04-02 04:12:46 +0000"
     },
     "done": true
   },
