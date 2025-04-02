@@ -2596,3 +2596,5 @@ java.lang.ArrayIndexOutOfBoundsException: null
 java.lang.ArrayIndexOutOfBoundsException: null
 [07:34:40] [Server thread/INFO]: bedrock_win
 [07:35:08] [Server thread/INFO]: lunek334 issued server command: /bedrock wood 20 20
+[07:45:55] [Server thread/INFO]: lunek334 lost connection: Disconnected
+[07:45:55] [Server thread/INFO]: lunek334 left the game
