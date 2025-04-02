@@ -2270,3 +2270,29 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [05:24:07] [Server thread/INFO]: Summoned new Zombie
 [05:24:15] [Server thread/INFO]: Summoned new Zombie
 [05:24:21] [Server thread/INFO]: Summoned new Zombie
+[05:25:10] [Server thread/INFO]: Summoned new Zombie
+[05:25:34] [Server thread/INFO]: Summoned new Zombie
+[05:25:40] [Server thread/INFO]: Summoned new Zombie
+[05:25:46] [Server thread/INFO]: Summoned new Zombie
+[05:25:52] [Server thread/INFO]: Summoned new Zombie
+[05:25:59] [Server thread/INFO]: Summoned new Zombie
+[05:26:06] [Server thread/INFO]: Summoned new Zombie
+[05:26:13] [Server thread/INFO]: lunek334 was burnt to a crisp whilst fighting Bartynz
+[05:26:24] [Server thread/INFO]: lunek334 issued server command: /tp Bartynz
+[05:26:24] [Server thread/INFO]: [lunek334: Teleported lunek334 to Bartynz]
+[05:26:51] [Server thread/INFO]: lunek334 issued server command: /kill Bartynz
+[05:26:51] [Server thread/INFO]: Bartynz was killed
+[05:26:51] [Server thread/INFO]: [lunek334: Killed Bartynz]
+[05:26:56] [Server thread/INFO]: Bartynz issued server command: /tp lunek334
+[05:26:56] [Server thread/INFO]: [Bartynz: Teleported Bartynz to lunek334]
+[05:27:57] [Server thread/INFO]: lunek334 issued server command: /kill Bartynz
+[05:27:57] [Server thread/INFO]: Bartynz was killed
+[05:27:57] [Server thread/INFO]: [lunek334: Killed Bartynz]
+[05:28:00] [Server thread/INFO]: Bartynz issued server command: /tp lunek334
+[05:28:00] [Server thread/INFO]: [Bartynz: Teleported Bartynz to lunek334]
+[05:32:18] [Server thread/INFO]: lunek334 issued server command: /clear @a
+[05:32:18] [Server thread/INFO]: [lunek334: Removed 1056 item(s) from 2 players]
+[05:32:26] [Server thread/INFO]: lunek334 issued server command: /gamemode creative
+[05:32:26] [Server thread/INFO]: [lunek334: Set own game mode to Creative Mode]
+[05:33:00] [Server thread/INFO]: Bartynz issued server command: /gamemode creative
+[05:33:00] [Server thread/INFO]: [Bartynz: Set own game mode to Creative Mode]
