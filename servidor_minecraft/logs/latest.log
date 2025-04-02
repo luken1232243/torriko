@@ -2306,3 +2306,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [06:27:32] [Server thread/INFO]: [lunek334: Applied effect Nausea to Bartynz]
 [06:27:52] [Server thread/INFO]: lunek334 issued server command: /effect give Bartynz minecraft:nausea 20
 [06:27:52] [Server thread/INFO]: [lunek334: Applied effect Nausea to Bartynz]
+[06:36:23] [Server thread/INFO]: lunek334 issued server command: /effect give Bartynz minecraft:nausea 30 5
+[06:36:23] [Server thread/INFO]: [lunek334: Applied effect Nausea to Bartynz]
+[06:36:52] [Server thread/INFO]: lunek334 issued server command: /effect clear @a
+[06:36:52] [Server thread/INFO]: [lunek334: Removed every effect from 2 targets]
