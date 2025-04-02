@@ -2296,3 +2296,5 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [05:32:26] [Server thread/INFO]: [lunek334: Set own game mode to Creative Mode]
 [05:33:00] [Server thread/INFO]: Bartynz issued server command: /gamemode creative
 [05:33:00] [Server thread/INFO]: [Bartynz: Set own game mode to Creative Mode]
+[06:10:29] [Server thread/INFO]: lunek334 has made the advancement [Who is Cutting Onions?]
+[06:11:34] [Server thread/INFO]: lunek334 has made the advancement [Hidden in the Depths]
