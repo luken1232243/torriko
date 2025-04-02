@@ -584,3 +584,254 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [04:03:14] [Server thread/INFO]: Summoned new Zombie
 [04:03:14] [Server thread/INFO]: Summoned new Enderman
 [04:03:14] [Server thread/INFO]: Summoned new Blaze
+[04:03:40] [Server thread/INFO]: Summoned new Zombie
+[04:03:48] [Server thread/ERROR]: Could not pass event EntityDeathEvent to s2e-farm-pro v1.2.4-pro
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at つ.onEntityDeath(WolfController.java:56717) ~[farm-pro.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor18.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:928) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.world.entity.LivingEntity.dropAllDeathLoot(LivingEntity.java:1801) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.die(LivingEntity.java:1695) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1519) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.hurt(Animal.java:87) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.doHurtTarget(Wolf.java:323) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:121) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:154) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:145) ~[?:?]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:923) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3351) ~[?:?]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:673) ~[?:?]
+	at net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:155) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:63) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.aiStep(Wolf.java:186) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3006) ~[?:?]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:435) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.tick(Wolf.java:202) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1352) ~[?:?]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1004) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$12(ServerLevel.java:872) ~[?:?]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:42) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:852) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1556) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[04:03:50] [Server thread/ERROR]: Could not pass event EntityDeathEvent to s2e-farm-pro v1.2.4-pro
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at つ.onEntityDeath(WolfController.java:56717) ~[farm-pro.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor18.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:928) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.world.entity.LivingEntity.dropAllDeathLoot(LivingEntity.java:1801) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.die(LivingEntity.java:1695) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1519) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.hurt(Animal.java:87) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.doHurtTarget(Wolf.java:323) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:121) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:154) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:145) ~[?:?]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:923) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3351) ~[?:?]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:673) ~[?:?]
+	at net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:155) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:63) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.aiStep(Wolf.java:186) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3006) ~[?:?]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:435) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.tick(Wolf.java:202) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1352) ~[?:?]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1004) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$12(ServerLevel.java:872) ~[?:?]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:42) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:852) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1556) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[04:03:59] [Server thread/INFO]: Summoned new Zombie
+[04:04:11] [Server thread/INFO]: Executed 4 command(s) from function 'tiktok:witherywarden'
+[04:04:15] [Server thread/INFO]: Summoned new Zombie
+[04:05:00] [Server thread/INFO]: Summoned new Blaze
+[04:05:00] [Server thread/INFO]: Summoned new Enderman
+[04:05:00] [Server thread/INFO]: Summoned new Enderman
+[04:05:00] [Server thread/INFO]: Summoned new Blaze
+[04:05:10] [Server thread/INFO]: Summoned new Zombie
+[04:05:13] [Server thread/INFO]: Summoned new Zombie
+[04:05:20] [Server thread/INFO]: Summoned new Enderman
+[04:05:20] [Server thread/INFO]: Summoned new Blaze
+[04:05:26] [Server thread/INFO]: Summoned new Zombie
+[04:05:27] [Server thread/INFO]: Summoned new Zombie
+[04:05:34] [Server thread/INFO]: Summoned new Zombie
+[04:05:40] [Server thread/INFO]: Summoned new Zombie
+[04:05:43] [Server thread/INFO]: Summoned new Zombie
+[04:05:50] [Server thread/INFO]: Summoned new Enderman
+[04:05:50] [Server thread/INFO]: Summoned new Blaze
+[04:05:50] [Server thread/INFO]: Summoned new Zombie
+[04:05:50] [Server thread/INFO]: Summoned new Blaze
+[04:05:50] [Server thread/INFO]: Summoned new Enderman
+[04:05:54] [Server thread/INFO]: Bartynz has made the advancement [Acquire Hardware]
+[04:05:57] [Server thread/INFO]: Summoned new Zombie
+[04:05:57] [Server thread/INFO]: Summoned new Zombie
+[04:06:04] [Server thread/INFO]: Summoned new Zombie
+[04:06:12] [Server thread/INFO]: Summoned new Zombie
+[04:06:15] [Server thread/INFO]: Summoned new Zombie
+[04:06:18] [Server thread/INFO]: Summoned new Zombie
+[04:06:25] [Server thread/INFO]: Summoned new Zombie
+[04:06:32] [Server thread/INFO]: Summoned new Zombie
+[04:06:34] [Server thread/INFO]: Summoned new Zombie
+[04:06:39] [Server thread/INFO]: Summoned new Zombie
+[04:06:46] [Server thread/INFO]: Summoned new Zombie
+[04:06:53] [Server thread/INFO]: Summoned new Zombie
+[04:06:54] [Server thread/INFO]: Summoned new Zombie
+[04:07:00] [Server thread/INFO]: Summoned new Zombie
+[04:07:01] [Server thread/INFO]: Summoned new Enderman
+[04:07:01] [Server thread/INFO]: Summoned new Blaze
+[04:07:01] [Server thread/INFO]: Summoned new Enderman
+[04:07:01] [Server thread/INFO]: Summoned new Blaze
+[04:07:07] [Server thread/INFO]: lunek334 has made the advancement [Acquire Hardware]
+[04:07:08] [Server thread/INFO]: Summoned new Zombie
+[04:07:09] [Server thread/INFO]: Summoned new Zombie
+[04:07:14] [Server thread/INFO]: Summoned new Zombie
+[04:07:22] [Server thread/INFO]: Summoned new Zombie
+[04:07:23] [Server thread/INFO]: Summoned new Enderman
+[04:07:23] [Server thread/INFO]: Summoned new Blaze
+[04:07:23] [Server thread/INFO]: Summoned new Enderman
+[04:07:23] [Server thread/INFO]: Summoned new Blaze
+[04:07:27] [Server thread/INFO]: Summoned new Blaze
+[04:07:27] [Server thread/INFO]: Summoned new Enderman
+[04:07:27] [Server thread/INFO]: Summoned new Enderman
+[04:07:28] [Server thread/INFO]: Summoned new Blaze
+[04:07:29] [Server thread/INFO]: Summoned new Zombie
+[04:07:30] [Server thread/INFO]: Summoned new Zombie
+[04:07:34] [Server thread/INFO]: Summoned new Zombie
+[04:07:38] [Server thread/INFO]: Summoned new Zombie
+[04:07:42] [Server thread/INFO]: Summoned new Zombie
+[04:07:47] [Server thread/INFO]: Summoned new Zombie
+[04:07:51] [Server thread/INFO]: Summoned new Zombie
+[04:07:52] [Server thread/INFO]: Summoned new Zombie
+[04:07:57] [Server thread/INFO]: Summoned new Zombie
+[04:07:58] [Server thread/INFO]: Summoned new Zombie
+[04:08:03] [Server thread/INFO]: Summoned new Zombie
+[04:08:09] [Server thread/INFO]: Summoned new Zombie
+[04:08:12] [Server thread/INFO]: Summoned new Blaze
+[04:08:12] [Server thread/INFO]: Summoned new Enderman
+[04:08:14] [Server thread/INFO]: Summoned new Zombie
+[04:08:15] [Server thread/INFO]: Summoned new Zombie
+[04:08:21] [Server thread/INFO]: Summoned new Zombie
+[04:08:27] [Server thread/INFO]: Summoned new Zombie
+[04:08:28] [Server thread/INFO]: Summoned new Zombie
+[04:08:32] [Server thread/INFO]: Summoned new Zombie
+[04:08:35] [Server thread/INFO]: Summoned new Zombie
+[04:08:36] [Server thread/INFO]: Summoned new Zombie
+[04:08:39] [Server thread/INFO]: Summoned new Zombie
+[04:08:42] [Server thread/INFO]: Summoned new Blaze
+[04:08:42] [Server thread/INFO]: Summoned new Enderman
+[04:08:44] [Server thread/INFO]: Summoned new Zombie
+[04:08:45] [Server thread/INFO]: Summoned new Zombie
+[04:08:50] [Server thread/INFO]: Summoned new Zombie
+[04:08:55] [Server thread/INFO]: Summoned new Zombie
+[04:09:00] [Server thread/INFO]: Summoned new Zombie
+[04:09:03] [Server thread/INFO]: Summoned new Zombie
+[04:09:04] [Server thread/INFO]: Summoned new Zombie
+[04:09:06] [Server thread/INFO]: Summoned new Zombie
+[04:09:12] [Server thread/INFO]: Summoned new Zombie
+[04:09:19] [Server thread/INFO]: Summoned new Zombie
+[04:09:25] [Server thread/INFO]: Summoned new Zombie
+[04:09:26] [Server thread/INFO]: Summoned new Zombie
+[04:09:27] [Server thread/INFO]: Summoned new Enderman
+[04:09:27] [Server thread/INFO]: Summoned new Blaze
+[04:09:28] [Server thread/INFO]: Summoned new Zombie
+[04:09:34] [Server thread/INFO]: Summoned new Zombie
+[04:09:40] [Server thread/INFO]: Summoned new Zombie
+[04:09:42] [Server thread/INFO]: Summoned new Zombie
+[04:09:50] [Server thread/INFO]: Summoned new Zombie
+[04:09:51] [Server thread/INFO]: Summoned new Zombie
+[04:09:52] [Server thread/INFO]: Summoned new Zombie
+[04:09:56] [Server thread/INFO]: Summoned new Zombie
+[04:10:00] [Server thread/INFO]: Summoned new Zombie
+[04:10:03] [Server thread/INFO]: Summoned new Zombie
+[04:10:09] [Server thread/INFO]: Summoned new Zombie
+[04:10:14] [Server thread/INFO]: Summoned new Zombie
+[04:10:21] [Server thread/INFO]: Summoned new Zombie
+[04:10:22] [Server thread/INFO]: Summoned new Zombie
+[04:10:24] [Server thread/INFO]: Summoned new Zombie
+[04:10:27] [Server thread/INFO]: Summoned new Zombie
+[04:10:28] [Server thread/INFO]: Summoned new Enderman
+[04:10:29] [Server thread/INFO]: Summoned new Enderman
+[04:10:29] [Server thread/INFO]: Summoned new Blaze
+[04:10:29] [Server thread/INFO]: Summoned new Blaze
+[04:10:31] [Server thread/INFO]: Summoned new Zombie
+[04:10:33] [Server thread/INFO]: Summoned new Zombie
+[04:10:35] [Server thread/INFO]: Summoned new Zombie
+[04:10:38] [Server thread/INFO]: Summoned new Zombie
+[04:10:43] [Server thread/INFO]: Summoned new Zombie
+[04:10:47] [Server thread/INFO]: Summoned new Zombie
+[04:10:48] [Server thread/INFO]: Summoned new Enderman
+[04:10:48] [Server thread/INFO]: Summoned new Blaze
+[04:10:51] [Server thread/INFO]: Summoned new Zombie
+[04:10:52] [Server thread/INFO]: Summoned new Zombie
+[04:10:58] [Server thread/INFO]: Summoned new Zombie
+[04:11:03] [Server thread/INFO]: Summoned new Zombie
+[04:11:08] [Server thread/INFO]: Summoned new Zombie
+[04:11:09] [Server thread/INFO]: Summoned new Zombie
+[04:11:10] [Server thread/INFO]: Summoned new Zombie
+[04:11:16] [Server thread/INFO]: Summoned new Zombie
+[04:11:22] [Server thread/INFO]: Summoned new Zombie
+[04:11:26] [Server thread/INFO]: Summoned new Zombie
+[04:11:27] [Server thread/INFO]: Summoned new Zombie
+[04:11:31] [Server thread/INFO]: Summoned new Zombie
+[04:11:34] [Server thread/INFO]: Summoned new Zombie
+[04:11:39] [Server thread/INFO]: Summoned new Zombie
+[04:11:44] [Server thread/INFO]: Summoned new Zombie
+[04:11:45] [Server thread/INFO]: Summoned new Zombie
+[04:11:46] [Server thread/INFO]: Summoned new Zombie
+[04:11:51] [Server thread/INFO]: Summoned new Zombie
+[04:11:58] [Server thread/INFO]: Summoned new Zombie
+[04:12:03] [Server thread/INFO]: Summoned new Zombie
+[04:12:09] [Server thread/INFO]: Summoned new Zombie
+[04:12:11] [Server thread/INFO]: Summoned new Zombie
+[04:12:13] [Server thread/INFO]: Summoned new Zombie
+[04:12:19] [Server thread/INFO]: Summoned new Zombie
+[04:12:25] [Server thread/INFO]: Summoned new Zombie
+[04:12:33] [Server thread/INFO]: Summoned new Zombie
+[04:12:39] [Server thread/INFO]: Summoned new Zombie
+[04:12:40] [Server thread/INFO]: Summoned new Zombie
+[04:12:46] [Server thread/INFO]: Summoned new Zombie
+[04:12:53] [Server thread/INFO]: Summoned new Zombie
+[04:12:59] [Server thread/INFO]: Summoned new Zombie
+[04:13:00] [Server thread/INFO]: Summoned new Zombie
+[04:13:07] [Server thread/INFO]: Summoned new Zombie
+[04:13:14] [Server thread/INFO]: Summoned new Zombie
+[04:13:16] [Server thread/INFO]: Summoned new Zombie
+[04:13:20] [Server thread/INFO]: Summoned new Zombie
+[04:13:26] [Server thread/INFO]: Summoned new Zombie
+[04:13:31] [Server thread/INFO]: Summoned new Enderman
+[04:13:31] [Server thread/INFO]: Summoned new Blaze
+[04:13:32] [Server thread/INFO]: Summoned new Enderman
+[04:13:32] [Server thread/INFO]: Summoned new Blaze
+[04:13:33] [Server thread/INFO]: Summoned new Zombie
+[04:13:33] [Server thread/INFO]: Summoned new Warden
+[04:13:33] [Server thread/INFO]: Showing new title for lunek334
+[04:13:33] [Server thread/INFO]: Showing new title for Bartynz
+[04:13:33] [Server thread/INFO]: Summoned new Wither
+[04:13:33] [Server thread/INFO]: Gave 32 [Arrow] to 2
+[04:13:36] [Server thread/INFO]: Summoned new Zombie
