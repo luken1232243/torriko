@@ -47,8 +47,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-04-02 03:44:11 +0000",
+      "minecraft:skeleton": "2025-04-02 04:46:25 +0000",
       "minecraft:spider": "2025-04-02 04:41:46 +0000",
+      "minecraft:creeper": "2025-04-02 04:47:27 +0000",
       "minecraft:wither": "2025-04-02 04:05:13 +0000",
+      "minecraft:wither_skeleton": "2025-04-02 04:45:07 +0000",
       "minecraft:enderman": "2025-04-02 03:49:00 +0000",
       "minecraft:zombie": "2025-03-20 23:56:03 +0000"
     },
@@ -63,6 +66,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-04-02 03:53:32 +0000",
+      "cooked_beef": "2025-04-02 04:44:27 +0000",
       "baked_potato": "2025-04-02 04:18:12 +0000",
       "porkchop": "2025-04-02 03:43:26 +0000",
       "mutton": "2025-03-21 00:13:04 +0000",
@@ -791,6 +795,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-04-02 04:52:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
@@ -872,6 +882,12 @@
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2025-04-02 03:49:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-04-02 04:50:58 +0000"
     },
     "done": true
   },
@@ -1223,6 +1239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-04-02 04:46:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
@@ -1328,6 +1350,12 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2025-04-02 04:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-04-02 04:52:07 +0000"
     },
     "done": true
   },
