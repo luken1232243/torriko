@@ -2558,3 +2558,41 @@ java.lang.ArrayIndexOutOfBoundsException: null
 java.lang.ArrayIndexOutOfBoundsException: null
 [07:25:36] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
 java.lang.ArrayIndexOutOfBoundsException: null
+[07:27:04] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:27:04] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:27:13] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:31:10] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:32:58] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:32:59] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:32:59] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:00] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:00] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:00] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:00] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:01] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:23] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:23] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:25] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:25] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:27] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:33:29] [Server thread/ERROR]: Could not pass event BlockPlaceEvent to s2e-bedrock-box v1.2.7
+java.lang.ArrayIndexOutOfBoundsException: null
+[07:34:40] [Server thread/INFO]: bedrock_win
+[07:35:08] [Server thread/INFO]: lunek334 issued server command: /bedrock wood 20 20
