@@ -7,13 +7,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2025-04-02 03:44:49 +0000",
       "minecraft:birch_forest": "2025-04-02 02:19:12 +0000",
       "minecraft:beach": "2025-04-01 23:52:44 +0000",
       "minecraft:dark_forest": "2025-04-01 23:51:46 +0000",
       "minecraft:river": "2025-04-02 00:24:22 +0000",
       "minecraft:snowy_plains": "2025-04-02 03:35:17 +0000",
       "minecraft:snowy_taiga": "2025-04-02 03:03:24 +0000",
+      "minecraft:frozen_ocean": "2025-04-02 03:48:32 +0000",
       "minecraft:ocean": "2025-04-02 00:31:06 +0000",
+      "minecraft:snowy_beach": "2025-04-02 03:43:21 +0000",
       "minecraft:windswept_savanna": "2025-04-02 00:30:52 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-02 00:31:55 +0000",
       "minecraft:plains": "2025-04-01 23:52:20 +0000"
@@ -136,9 +139,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-04-02 03:50:25 +0000",
       "minecraft:skeleton": "2025-04-02 02:00:24 +0000",
       "minecraft:spider": "2025-04-02 02:02:25 +0000",
-      "minecraft:creeper": "2025-04-02 02:02:13 +0000"
+      "minecraft:creeper": "2025-04-02 02:02:13 +0000",
+      "minecraft:enderman": "2025-04-02 03:50:34 +0000",
+      "minecraft:zombie": "2025-04-02 03:38:53 +0000"
     },
     "done": false
   },
@@ -688,9 +694,149 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-04-02 03:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-04-02 03:49:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-04-02 03:51:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-02 03:51:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2025-04-02 03:34:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-04-02 03:53:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-04-02 03:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2025-04-02 03:43:16 +0000",
+      "enchanted_golden_apple": "2025-04-02 03:41:51 +0000",
+      "cooked_salmon": "2025-04-02 03:48:51 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-04-02 03:41:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-04-02 03:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-02 03:51:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-04-02 03:49:48 +0000"
     },
     "done": true
   },

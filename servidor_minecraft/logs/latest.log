@@ -324,3 +324,192 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" bec
 [03:42:51] [Server thread/INFO]: Summoned new Zombie
 [03:42:54] [Server thread/INFO]: Summoned new Zombie
 [03:42:57] [Server thread/INFO]: Summoned new Zombie
+[03:43:10] [Server thread/INFO]: Summoned new Zombie
+[03:43:18] [Server thread/INFO]: Summoned new Zombie
+[03:43:22] [Server thread/INFO]: Summoned new Zombie
+[03:43:28] [Server thread/ERROR]: Could not pass event EntityDeathEvent to s2e-farm-pro v1.2.4-pro
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at つ.onEntityDeath(WolfController.java:56717) ~[farm-pro.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor18.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:928) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.world.entity.LivingEntity.dropAllDeathLoot(LivingEntity.java:1801) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.die(LivingEntity.java:1695) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1519) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.hurt(Animal.java:87) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.doHurtTarget(Wolf.java:323) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:121) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:154) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:145) ~[?:?]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:923) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3351) ~[?:?]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:673) ~[?:?]
+	at net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:155) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:63) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.aiStep(Wolf.java:186) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3006) ~[?:?]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:435) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.tick(Wolf.java:202) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1352) ~[?:?]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1004) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$12(ServerLevel.java:872) ~[?:?]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:42) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:852) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1556) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[03:43:32] [Server thread/ERROR]: Could not pass event EntityDeathEvent to s2e-farm-pro v1.2.4-pro
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at つ.onEntityDeath(WolfController.java:56717) ~[farm-pro.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor18.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:git-Paper-196]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:928) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.world.entity.LivingEntity.dropAllDeathLoot(LivingEntity.java:1801) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.die(LivingEntity.java:1695) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1519) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.hurt(Animal.java:87) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.doHurtTarget(Wolf.java:323) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:121) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:154) ~[?:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:145) ~[?:?]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:923) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3351) ~[?:?]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:673) ~[?:?]
+	at net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:155) ~[?:?]
+	at net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:63) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.aiStep(Wolf.java:186) ~[?:?]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3006) ~[?:?]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:435) ~[?:?]
+	at net.minecraft.world.entity.animal.Wolf.tick(Wolf.java:202) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1352) ~[?:?]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1004) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$12(ServerLevel.java:872) ~[?:?]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:42) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:852) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1556) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[03:43:34] [Server thread/INFO]: Summoned new Zombie
+[03:43:38] [Server thread/INFO]: Summoned new Zombie
+[03:43:45] [Server thread/INFO]: Summoned new Zombie
+[03:43:55] [Server thread/INFO]: Summoned new Zombie
+[03:43:58] [Server thread/INFO]: Summoned new Zombie
+[03:44:04] [Server thread/INFO]: Summoned new Enderman
+[03:44:04] [Server thread/INFO]: Summoned new Enderman
+[03:44:04] [Server thread/INFO]: Summoned new Blaze
+[03:44:04] [Server thread/INFO]: Summoned new Blaze
+[03:44:05] [Server thread/INFO]: Summoned new Zombie
+[03:44:11] [Server thread/INFO]: lunek334 has made the advancement [Into Fire]
+[03:44:20] [Server thread/INFO]: Summoned new Zombie
+[03:44:21] [Server thread/INFO]: Summoned new Zombie
+[03:44:29] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:44:29] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to Bartynz
+[03:44:30] [Server thread/INFO]: Summoned new Zombie
+[03:44:40] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to Bartynz
+[03:44:40] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:44:41] [Server thread/INFO]: Summoned new Zombie
+[03:44:41] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to Bartynz
+[03:44:41] [Server thread/INFO]: Summoned new Zombie
+[03:44:41] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:44:41] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:44:54] [Server thread/INFO]: Summoned new Zombie
+[03:44:57] [Server thread/INFO]: Summoned new Zombie
+[03:45:03] [Server thread/INFO]: Executed 3 command(s) from function 'tiktok:armas'
+[03:45:04] [Server thread/INFO]: Summoned new Zombie
+[03:45:05] [Server thread/INFO]: lunek334 issued server command: /tp Bartynz lunek334
+[03:45:05] [Server thread/INFO]: [lunek334: Teleported Bartynz to lunek334]
+[03:45:11] [Server thread/INFO]: Summoned new Zombie
+[03:45:20] [Server thread/INFO]: Summoned new Zombie
+[03:45:28] [Server thread/INFO]: Summoned new Zombie
+[03:45:34] [Server thread/INFO]: Summoned new Zombie
+[03:45:40] [Server thread/INFO]: Summoned new Zombie
+[03:45:49] [Server thread/INFO]: Summoned new Warden
+[03:45:50] [Server thread/INFO]: Summoned new Wither
+[03:45:50] [Server thread/INFO]: Showing new title for lunek334
+[03:45:50] [Server thread/INFO]: Showing new title for Bartynz
+[03:45:50] [Server thread/INFO]: Gave 32 [Arrow] to 2
+[03:45:52] [Server thread/INFO]: Summoned new Zombie
+[03:46:00] [Server thread/INFO]: Summoned new Zombie
+[03:46:02] [Server thread/INFO]: Removed 134 item(s) from player Bartynz
+[03:46:02] [Server thread/INFO]: Showing new title for Bartynz
+[03:46:02] [Server thread/INFO]: Showing new title for Bartynz
+[03:46:09] [Server thread/INFO]: Summoned new Zombie
+[03:46:23] [Server thread/INFO]: Summoned new Zombie
+[03:46:26] [Server thread/INFO]: Summoned new Zombie
+[03:46:37] [Server thread/INFO]: Summoned new Zombie
+[03:46:39] [Server thread/INFO]: Summoned new Zombie
+[03:46:40] [Server thread/INFO]: Summoned new Zombie
+[03:46:48] [Server thread/INFO]: Summoned new Zombie
+[03:46:49] [Server thread/INFO]: Bartynz was slain by lunek334
+[03:47:00] [Server thread/INFO]: Summoned new Zombie
+[03:47:02] [Server thread/INFO]: Summoned new Zombie
+[03:47:06] [Server thread/INFO]: lunek334 issued server command: /tp Bartynz lunek334
+[03:47:06] [Server thread/INFO]: [lunek334: Teleported Bartynz to lunek334]
+[03:47:12] [Server thread/INFO]: Summoned new Zombie
+[03:47:18] [Server thread/INFO]: Executed 5 command(s) from function 'tiktok:armadura'
+[03:47:18] [Server thread/INFO]: Summoned new Zombie
+[03:47:20] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:47:20] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to lunek334
+[03:47:20] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to lunek334
+[03:47:22] [Server thread/INFO]: Summoned new Zombie
+[03:47:41] [Server thread/INFO]: Summoned new Zombie
+[03:47:41] [Server thread/INFO]: lunek334 has made the advancement [Sneak 100]
+[03:47:58] [Server thread/INFO]: Summoned new Zombie
+[03:48:12] [Server thread/INFO]: Summoned new Zombie
+[03:48:36] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:48:36] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to lunek334
+[03:48:36] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to lunek334
+[03:48:36] [Server thread/INFO]: Summoned new Enderman
+[03:48:36] [Server thread/INFO]: Summoned new Blaze
+[03:48:48] [Server thread/INFO]: Gave 1 [Bow] to lunek334
+[03:48:48] [Server thread/INFO]: Gave 32 [Arrow] to 2
+[03:48:48] [Server thread/INFO]: Gave 1 [Netherite Pickaxe] to lunek334
+[03:49:00] [Server thread/INFO]: Summoned new Enderman
+[03:49:00] [Server thread/INFO]: Summoned new Blaze
+[03:49:07] [Server thread/INFO]: lunek334 has made the advancement [Take Aim]
+[03:49:35] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to lunek334
+[03:49:35] [Server thread/INFO]: Gave 1 [Enchanted Golden Apple] to lunek334
+[03:49:35] [Server thread/INFO]: Gave 1 [gracias por el totem] to Bartynz
+[03:50:10] [Server thread/INFO]: Summoned new Enderman
+[03:50:10] [Server thread/INFO]: Summoned new Blaze
+[03:50:56] [Server thread/INFO]: Summoned new Blaze
+[03:50:57] [Server thread/INFO]: Summoned new Enderman
+[03:50:57] [Server thread/INFO]: Summoned new Enderman
+[03:50:57] [Server thread/INFO]: Summoned new Blaze
+[03:51:08] [Server thread/INFO]: Summoned new Zombie
+[03:51:20] [Server thread/INFO]: Bartynz has made the advancement [Into Fire]
+[03:51:23] [Server thread/INFO]: Summoned new Blaze
+[03:51:23] [Server thread/INFO]: Summoned new Enderman
+[03:51:55] [Server thread/INFO]: Summoned new Zombie
+[03:52:15] [Server thread/INFO]: Summoned new Blaze
+[03:52:15] [Server thread/INFO]: Summoned new Enderman
+[03:52:15] [Server thread/INFO]: Summoned new Blaze
+[03:52:15] [Server thread/INFO]: Summoned new Enderman
+[03:53:00] [Server thread/INFO]: Bartynz has reached the goal [Postmortal]
