@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-04-02 03:54:49 +0000",
       "minecraft:frozen_river": "2025-04-02 03:44:49 +0000",
       "minecraft:birch_forest": "2025-04-02 02:19:12 +0000",
       "minecraft:beach": "2025-04-01 23:52:44 +0000",
@@ -810,6 +811,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-04-02 03:53:58 +0000",
       "baked_potato": "2025-04-02 03:43:16 +0000",
       "enchanted_golden_apple": "2025-04-02 03:41:51 +0000",
       "cooked_salmon": "2025-04-02 03:48:51 +0000"

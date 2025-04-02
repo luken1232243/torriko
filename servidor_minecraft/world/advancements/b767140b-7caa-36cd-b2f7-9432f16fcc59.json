@@ -7,6 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-04-02 03:54:47 +0000",
+      "minecraft:frozen_river": "2025-04-02 03:53:18 +0000",
       "minecraft:birch_forest": "2025-03-21 00:08:50 +0000",
       "minecraft:beach": "2025-03-21 00:07:22 +0000",
       "minecraft:dark_forest": "2025-03-20 23:39:21 +0000",
@@ -43,6 +45,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-04-02 03:44:11 +0000",
+      "minecraft:enderman": "2025-04-02 03:49:00 +0000",
       "minecraft:zombie": "2025-03-20 23:56:03 +0000"
     },
     "done": false
@@ -55,6 +58,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-04-02 03:53:32 +0000",
       "porkchop": "2025-04-02 03:43:26 +0000",
       "mutton": "2025-03-21 00:13:04 +0000",
       "rotten_flesh": "2025-03-20 23:56:06 +0000",
@@ -764,6 +768,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-02 03:49:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
@@ -812,6 +822,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-04-02 03:49:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2025-04-02 03:46:11 +0000"
@@ -854,6 +870,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-04-02 03:49:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-04-02 03:57:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
@@ -881,6 +909,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-02 03:49:17 +0000"
     },
     "done": true
   },
@@ -932,6 +966,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-02 03:49:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-04-02 03:54:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2025-04-02 03:47:45 +0000"
@@ -941,6 +987,18 @@
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2025-04-02 03:47:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-04-02 03:54:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-04-02 03:49:20 +0000"
     },
     "done": true
   },
